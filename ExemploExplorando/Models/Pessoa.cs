@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 namespace ExemploExplorando.Models
 {
     public class Pessoa
-    {
+    {   
+        // Pode ter mais de um construtor
+        // public Pessoa()
+        // {
+
+        // }
+        //Construtor Pessoa, sempre tem o mesmo nome da classe e não tem nennum retorno
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
         private string _nome;
         private int    _idade;  
         public string Nome 

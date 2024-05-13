@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U+WOHGLhrwFvR9bJA/+S1n0+OkSoEmRmiizNnwI6/zMG7NFAWbWG8bb+picH8pIj1JJGztw26SHg41fo41yp4A==",
+  "dgSpecHash": "Aq7WegzAqQluZ0BLD8UK9cJtVkjyJn0wy0vX7MlqinDjy+LUQADXOw88ENb4eJhBbxhgYY38OqJupM6lkzRe6g==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploExplorando\\ExemploExplorando.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

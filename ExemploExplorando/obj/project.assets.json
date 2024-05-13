@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
       "packagesPath": "C:\\Users\\marcos.reberte.DOMAIN\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploExplorando\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcos.reberte.DOMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
