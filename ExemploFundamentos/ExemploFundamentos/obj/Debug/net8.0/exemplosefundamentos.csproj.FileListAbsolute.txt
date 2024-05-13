@@ -1,0 +1,14 @@
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\bin\Debug\net8.0\exemplosefundamentos.exe
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\bin\Debug\net8.0\exemplosefundamentos.deps.json
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\bin\Debug\net8.0\exemplosefundamentos.runtimeconfig.json
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\bin\Debug\net8.0\exemplosefundamentos.dll
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\bin\Debug\net8.0\exemplosefundamentos.pdb
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.AssemblyInfoInputs.cache
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.AssemblyInfo.cs
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.dll
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\refint\exemplosefundamentos.dll
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.pdb
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\exemplosefundamentos.genruntimeconfig.cache
+C:\xampp\htdocs\estudos\dotnet\exemplosefundamentos\obj\Debug\net8.0\ref\exemplosefundamentos.dll

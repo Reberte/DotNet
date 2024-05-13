@@ -1,0 +1,14 @@
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+C:\xampp\htdocs\estudos\dotnet\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
