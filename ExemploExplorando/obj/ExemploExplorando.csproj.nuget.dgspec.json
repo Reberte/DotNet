@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "C:\\Users\\marco\\Documents\\ESTUDO DEV\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "C:\\Users\\marco\\Documents\\ESTUDO DEV\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\Documents\\ESTUDO DEV\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
-        "packagesPath": "C:\\Users\\marcos.reberte.DOMAIN\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploExplorando\\obj\\",
+        "projectPath": "C:\\Users\\marco\\Documents\\ESTUDO DEV\\DotNet\\ExemploExplorando\\ExemploExplorando.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\Documents\\ESTUDO DEV\\DotNet\\ExemploExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marcos.reberte.DOMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
