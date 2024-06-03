@@ -18,6 +18,14 @@ namespace ExemploExplorando.Models
             Nome = nome;
             Sobrenome = sobrenome;
         }
+
+        // Desconstrutor recebo o valor da propriedade"metodo"
+        public void Desconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
         private string _nome;
         private int    _idade;  
         public string Nome 

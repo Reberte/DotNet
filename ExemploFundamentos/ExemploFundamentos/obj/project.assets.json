@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "projectName": "ExemploFundamentos",
-      "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
       "packagesPath": "C:\\Users\\marcos.reberte.DOMAIN\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcos.reberte.DOMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj"
+            "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj"
             }
           }
         }

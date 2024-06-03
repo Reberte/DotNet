@@ -27,3 +27,24 @@ C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\refint\
 C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\marco\Documents\ESTUDO DEV\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploE.B7F01285.Up2Date
+C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\xampp\htdocs\estudos\dotnet\DotNet\ExemploExplorando\obj\Debug\net8.0\ExemploE.B7F01285.Up2Date

@@ -2,22 +2,332 @@
 using ExemploExplorando.Models;
 using System.Data;
 using System.Globalization;
+using Newtonsoft.Json;
 
 
+
+
+
+
+
+
+//Serializar e Deserializar
+
+
+//Deserializar pegar o Json e transformar em Objeto
+
+string consteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(consteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+  Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}" +
+                    $" Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
+
+
+
+
+
+/*//Serializar Gerar um aquivo Json
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Material de escritorio", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Licença de Software", 110.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+//string serializado = JsonConvert.SerializeObject(v1, Formatting.Indented);
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+//Criando um arquivo .json
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);
+
+//Data padrçao ISO 8601
+*/
+
+
+
+
+
+
+
+
+/*
+
+// IF  TERNARIO 
+
+int numero = 20;
+bool ehPar = false;
+
+// IF TERNÁRIO
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+/// if normal
+// if (numero % 2 == 0)
+// {
+//   Console.WriteLine($"O número {numero} é par ");
+// }
+// else 
+// {
+//   Console.WriteLine($"O número {numero} é impar");
+// }
+
+
+
+*/
+
+
+/*
+//Desconstrutor metodo criado na classe Pessoa
+Pessoa p1 = new Pessoa("Marcos", "Reberte");
+
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+//TUPLA coleção de dados que pode armazenar varias dados de tipos diferentes
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+  foreach(string linha in linhasArquivo)
+  {
+    Console.WriteLine(linha);
+  }
+
+}
+else 
+{
+  Console.WriteLine("Não foi posível ler o arquivo");
+}
+
+
+*/
+
+/*
+
+//TUPLA coleção de dados que pode armazenar varias dados de tipos diferentes
+
+//forma recomendada de declarar um Tupla
+(int, string, string, decimal) tupla = (1, "Marcos", "Reberte", 10.5M);
+
+//ValeuTuple<int, string, string, decimal> outroExemplo = (1, "Marcos", "Reberte", 10.5M);
+//var outroExemploTuplaCreate = Tupla.Create(1, "Marcos", "Reberte", 10.5M);
+
+Console.WriteLine($"Id: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+*/
+
+
+
+/*
+
+// Dictionary <chave, elemento> a chave deve ser unica, não pode ter repetido
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach(var item in estados)
+{
+  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+Console.WriteLine("------------------");
+
+estados.Remove("BA"); // removendo Bahia informando a chave
+
+estados["SP"] = "São Paulo - valor alterado";
+
+foreach(var item in estados)
+{
+  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+Console.WriteLine("------------------");
+
+string chave = "BA";
+
+Console.WriteLine($"Verificando o elemento {chave}");
+
+if (estados.ContainsKey(chave))
+{
+  Console.WriteLine($"Valor existente:  {chave}");
+}
+else
+{
+  Console.WriteLine($"Valor não existe. É seguro adicionar a chave:  {chave}");
+}
+
+
+// Consultando um estado
+
+Console.WriteLine(estados["MG"]);
+
+
+*/
+
+
+
+
+
+
+/*
+// Stack Pilha LIFO o O primeiro a entrar na pilha será o último a sair
+
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(8);
+pilha.Push(10);
+
+foreach(int item in pilha)
+{
+  Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento do topo {pilha.Pop()}");
+
+pilha.Push(20);
+
+foreach(int item in pilha)
+{
+  Console.WriteLine(item);
+}
+
+*/
+
+
+
+
+
+
+/*
+// Queue FILA FIFO -> primeiro que entrar na fila de execução será o primeiro a sair da fila;
+
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
+fila.Enqueue(10);
+fila.Enqueue(12);
+
+foreach(int item in fila)
+{
+  Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+
+
+foreach(int item in fila)
+{
+  Console.WriteLine(item);
+}
+
+
+*/
+
+
+
+
+
+
+
+/*
+// Usando throw -> tratando uma execeção
+
+new ExemploExcecao().Metodo1();
+
+*/
+
+
+
+
+
+
+
+
+
+/*
 ///LENDO ARUIVO DE TEXTO
 ///
 // try executa o código com cautela, se tiver erro o catch pega e cria uma exceção com o Exception 
+//finally {} sempre será executado, dando erro ou não no código.
+
 try{ 
-  string[] linhas = File.ReadAllLines("Arquivos/aarquivoLeitura.txt");
+  string[] linhas = File.ReadAllLines("Arquivoss/aarquivoLeitura.txt");
 
  foreach(string linha in linhas)
  {
   Console.WriteLine(linha);
  }
-}catch(Exception ex)
+}
+catch(FileNotFoundException ex)
 {
   Console.WriteLine($"Ocorreu um erro na leitura do arquivo {ex.Message}");
 }
+
+catch(DirectoryNotFoundException ex)
+{
+  Console.WriteLine("Ocorreu um erro na leitura do arquivo. Caminho da Pasta não encontrado. " + ex.Message);
+}
+
+catch(Exception ex)
+{
+  Console.WriteLine($"Ocorreu exceção Genérica {ex.Message}");
+}
+
+finally
+{
+  Console.WriteLine("Chegou até aqui!");
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
 
 /*
 //// MANIPULANDO E FORMATANDO DATAS

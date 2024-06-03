@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FhrvEa9ueQ1dybiRw5+eY8gXuBULj4M2ydcCzEyCIx3hhzq1OGT1UoPZwg4sZn7xN5mMOvnTQTe/t7MXQDaCCw==",
+  "dgSpecHash": "hJ08nCiooph2qaZpL+m7yjhcMvg+6b401xLNFntUqOafz/cnbCszrNcc3ay4zo4bSw+kKjV/UWlOYMFfK3O4ag==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\estudos\\dotnet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
