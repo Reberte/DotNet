@@ -8,9 +8,265 @@ using ExemploFundamentos.Common.Models;
 
 
 
+//####### Desafios de Código Coding The Future Avanade ll #######
 
 
 
+
+
+
+// DESAFIO 03
+
+/*
+
+Desafio
+Você está trabalhando para uma empresa que utiliza extensivamente os serviços da AWS, e após algumas análises a equipe de segurança identificou que algumas senhas dos usuários no IAM são fracas e podem representar um risco à segurança dos dados da empresa. Para resolver esse problema, foi solicitado que você desenvolva um programa capaz de analisar as senhas dos usuários e fornecer uma validação de força com base em critérios predefinidos.
+
+Requisitos de segurança para a senha:
+
+A senha deve ter no mínimo 8 caracteres.
+A senha deve conter pelo menos uma letra maiúscula (A-Z).
+A senha deve conter pelo menos uma letra minúscula (a-z).
+A senha deve conter pelo menos um número (0-9).
+A senha deve conter pelo menos um caractere especial, como !, @, #, $, %, etc.
+Entrada
+A entrada será uma única string representando a senha que precisa ser validada.
+
+Saída
+Seu programa deve retornar uma mensagem indicando se a senha fornecida pelo usuário atende aos requisitos de segurança ou não, juntamente com um feedback explicativo sobre os critérios considerados.
+
+Entrada	Saída
+0101	Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.
+030609saturno*	Sua senha atende aos requisitos de seguranca. Parabens!
+010203Jupiter	Sua senha nao atende aos requisitos de seguranca.
+
+
+
+
+
+using System;
+using System.Linq;
+
+class Program
+{
+    static string VerificarForcaSenha(string senha)
+    {
+        int comprimentoMinimo = 8;
+        bool temLetraMaiuscula = false;
+        bool temLetraMinuscula = false;
+        bool temNumero = false;
+        bool temCaractereEspecial = false;
+
+        // TODO: Verifique o comprimento da senha
+        if (senha.Length < comprimentoMinimo)
+         return "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
+
+        // Verificando se a senha contém letras maiúsculas e minúsculas
+        temLetraMaiuscula = senha.Any(char.IsUpper);
+        temLetraMinuscula = senha.Any(char.IsLower);
+
+        // Verificando se a senha contém sequências comuns
+        string[] sequenciasComuns = { "123456", "abcdef" };
+        if (sequenciasComuns.Any(s => senha.Contains(s)))
+            return "Sua senha contem uma sequencia comum. Tente uma senha mais complexa.";
+
+        // Verificando se a senha contém palavras comuns
+        string[] palavrasComuns = { "password", "123456", "qwerty" };
+        if (palavrasComuns.Contains(senha))
+            return "Sua senha e muito comum. Tente uma senha mais complexa.";
+
+        // Verificando se a senha contém números e caracteres especiais
+        temNumero = senha.Any(char.IsDigit);
+        temCaractereEspecial = senha.Any(c => !char.IsLetterOrDigit(c));
+
+        if (temLetraMinuscula && temLetraMaiuscula && temNumero && temCaractereEspecial)
+            return "Sua senha atende aos requisitos de seguranca. Parabens!";
+        else
+            return "Sua senha nao atende aos requisitos de seguranca.";
+    }
+
+    static void Main(string[] args)
+    {
+        string senha = Console.ReadLine().Trim();
+
+        string resultado = VerificarForcaSenha(senha);
+
+        Console.WriteLine(resultado);
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DESAFIO 02
+
+
+/*
+Desafio
+Em jogos de RPG, os personagens possuem atributos que determinam suas habilidades em diferentes áreas, como força, agilidade, inteligência, etc. Neste desafio, você deve criar uma função que verifica se o valor de um determinado atributo está dentro de um intervalo aceitável.
+
+Crie uma função chamada "verificar_atributo" que recebe três parâmetros: "atributo", "valor_minimo" e "valor_maximo". A função deve verificar se o valor do atributo está dentro do intervalo definido pelos valores mínimo e máximo.
+Caso o valor esteja dentro do intervalo, a função deve retornar true. Caso contrário, deve retornar false.
+
+Entrada:
+A entrada do código deverá ser feita através do io.stream(). Serão necessários três valores para chamar a função "verificar_atributo", que são: o nome do atributo, o valor mínimo aceitável e o valor máximo aceitável. Além disso, também será necessário informar o valor atual do atributo que se deseja verificar.
+
+Saída:
+A saída do código será uma mensagem informando se o valor do atributo está dentro ou fora do intervalo especificado. Caso o valor esteja dentro do intervalo, a mensagem será "O valor do atributo está dentro do intervalo especificado". Caso contrário, a mensagem será "O valor do atributo está fora do intervalo especificado".
+
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	Saída
+força
+1
+10
+7
+
+O valor do atributo está dentro do intervalo especificado
+destreza
+6
+12
+3
+
+O valor do atributo está fora do intervalo especificado
+inteligencia
+1
+100
+94
+
+O valor do atributo está dentro do intervalo especificado
+
+
+
+
+using System;
+
+class Program
+{
+    static bool VerificarAtributo(string atributo, int valorMinimo, int valorMaximo, int valorAtributo)
+    {
+      
+        //TODO: Implemente a função VerificarAtributo
+        return valorAtributo >= valorMinimo && valorAtributo <= valorMaximo;
+       
+    }
+
+    static void Main(string[] args)
+    {
+        string atributo = Console.ReadLine();
+
+        int valorMinimo = int.Parse(Console.ReadLine());
+
+        int valorMaximo = int.Parse(Console.ReadLine());
+
+        int valorAtributo = int.Parse(Console.ReadLine());
+
+       bool res = VerificarAtributo(atributo, valorMinimo, valorMaximo, valorAtributo);
+       
+        
+        
+          if(res)
+          {
+            Console.WriteLine("O valor do atributo está dentro do intervalo especificado");
+            
+          }
+          else
+          {
+            Console.WriteLine("O valor do atributo está fora do intervalo especificado");
+            
+          }
+        }
+        
+    }
+
+
+*/
+
+
+
+
+
+
+// DESAFIO 01
+/* 
+Desafio 01
+Em jogos de RPG, é comum haver ações de ataque dos personagens, que causam um certo dano ao inimigo. Este dano pode ser calculado de diferentes formas, dependendo do sistema do jogo. Neste desafio, você deve criar uma função que calcula o dano de um ataque, levando em consideração o valor do ataque e a defesa do inimigo.
+
+Crie uma função chamada "calcular_dano" que recebe dois parâmetros: "ataque" e "defesa". A função deve retornar o valor do dano causado pelo ataque, utilizando a seguinte fórmula:
+
+dano = ataque - defesa
+
+Se o valor do dano for negativo, ele deve ser considerado zero.
+
+Entrada:
+Seu programa deverá receber uma  entrada para a função "calcular_dano", que irá solicitar ao usuário que insira dois valores: o valor do ataque e o valor da defesa do inimigo. Esses valores serão passados como parâmetros para a função.
+
+Saída:
+A saída deve ser exibida com a frase "O dano causado pelo ataque foi: " seguida do valor do dano calculado. Caso o valor do dano seja negativo, deve ser exibido zero.
+
+Por exemplo, se o valor do ataque for 10 e o valor da defesa do inimigo for 8, a chamada da função "calcular_dano" deve resultar na seguinte saída:
+
+"O dano causado pelo ataque foi: 2"
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	Saída
+10
+8
+
+O dano causado pelo ataque foi: 2
+3
+9
+
+O dano causado pelo ataque foi: 0
+7
+1
+
+O dano causado pelo ataque foi: 6
+
+
+
+
+   using System;
+
+class Program
+{
+    static int CalcularDano(int ataque, int defesa)
+    {
+        //TODO: Implemente a função calcular dano
+        int dano = ataque - defesa;
+        if(dano < 0)
+        {
+          dano = 0;
+        }
+        return dano;
+    }
+
+    static void Main(string[] args)
+    {
+        int ataque = int.Parse(Console.ReadLine());
+
+        int defesa = int.Parse(Console.ReadLine());
+
+        int danoCausado = CalcularDano(ataque, defesa);
+        Console.WriteLine("O dano causado pelo ataque foi: " + danoCausado);
+    }
+}
+    
+
+*/
 
 
 
