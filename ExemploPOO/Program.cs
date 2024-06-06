@@ -1,9 +1,14 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
 
 
+/*
+ICalculadora c1 = new Calculadora();
 
+c1.Somar(10,20);
 
+*/
 
 
 
@@ -39,7 +44,7 @@ c1.ExibirSaldo();
 
 
 
-/*
+
 Aluno a1 = new Aluno();
 
 a1.Nome = "Marcos Reberte";
@@ -57,7 +62,7 @@ p1.Idade = 45;
 p1.Salario = 1000;
 p1.Apresentar();
 
-*/
+
 
 
 
