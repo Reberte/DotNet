@@ -3,6 +3,13 @@ using ExemploPOO.Models;
 
 
 
+
+
+
+
+
+
+
 /*
 ICalculadora c1 = new Calculadora();
 
@@ -43,7 +50,7 @@ c1.ExibirSaldo();
 
 
 
-
+/*
 
 Aluno a1 = new Aluno();
 
@@ -62,7 +69,7 @@ p1.Idade = 45;
 p1.Salario = 1000;
 p1.Apresentar();
 
-
+*/
 
 
 
