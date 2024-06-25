@@ -1,0 +1,21 @@
+- Comando para gerar uma API:
+  dotnet new webapi
+
+- Comando para rodar a API:
+  dotnet watch run
+
+- Comando para instalar a Ferramenta Entity Framework - instalar só uma vez:
+  dotnet tool install --global dotnet-ef
+
+- Comando para instalar o pacote Entity Framework - instalar para cada projeto que criar:
+  dotnet add package Microsoft.EntityFrameworkCore.Design
+
+- Comando para instalar o pacote do SQL SERVER - precisa instalar para cada projeto:
+  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+- Comando criar uma Migration, este comando vai criar a estrutura migration para criar as tabelas no banco de dados caso tenha que criar, vai criar o Banco Agenda conforme   "appsettings.Development.json" e crair a tabela contato conforme "public DbSet<Contato> Contatos{get; set;}", após executar o comando será criado a pasta Migrations:
+  dotnet-ef migrations add CriacaoTabelaContato
+
+- Comando para executar a migrations e criar o banco e a tabela:
+  dotnet-ef  database update
+

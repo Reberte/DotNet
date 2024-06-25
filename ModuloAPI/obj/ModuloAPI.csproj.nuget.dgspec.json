@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj": {}
+    "C:\\EstudoDev\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj": {
+    "C:\\EstudoDev\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj",
+        "projectUniqueName": "C:\\EstudoDev\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj",
         "projectName": "ModuloAPI",
-        "projectPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj",
-        "packagesPath": "C:\\Users\\marcos.reberte.DOMAIN\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\estudos\\dotnet\\DotNet\\ModuloAPI\\obj\\",
+        "projectPath": "C:\\EstudoDev\\dotnet\\DotNet\\ModuloAPI\\ModuloAPI.csproj",
+        "packagesPath": "C:\\Users\\marcos.reberte\\.nuget\\packages\\",
+        "outputPath": "C:\\EstudoDev\\dotnet\\DotNet\\ModuloAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marcos.reberte.DOMAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marcos.reberte\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -47,6 +47,16 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -71,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
