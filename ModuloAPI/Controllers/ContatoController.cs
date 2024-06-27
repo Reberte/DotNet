@@ -25,7 +25,8 @@ namespace ModuloAPI.Controllers
         {
             _context.Add(contato);
             _context.SaveChanges();
-            return Ok(contato);
+            //return Ok(contato);
+            return CreatedAtAction(nameof(ObterPorId), new {id = contato.Id}, contato);
         }
 
 //Criando um ENDPOINT controle que consulta  um registro no Banco de Dados pela API pelo ID -- FAZ UM SELECT NO BANCO - SELECIONA 
@@ -96,6 +97,6 @@ namespace ModuloAPI.Controllers
 
         }
 
-        
+
     }
 }
