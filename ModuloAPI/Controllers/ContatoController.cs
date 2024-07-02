@@ -87,7 +87,7 @@ namespace ModuloAPI.Controllers
 
 
         
-        //Criando um ENDPOINT controle que consulta  um registro no Banco de Dados pela API todos contatos-- FAZ UM SELECT NO BANCO - SELECIONA 
+        //Criando um ENDPOINT controle que consulta  um registro no Banco de Dados pela API todos contatos com o nome pesquisado-- FAZ UM SELECT NO BANCO - SELECIONA 
         [HttpGet("ObterPorNome")]
         public IActionResult ObterPorNome(string nome)
         {

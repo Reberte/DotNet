@@ -13,7 +13,7 @@
 - Comando para instalar o pacote do SQL SERVER - precisa instalar para cada projeto:
   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
-- Comando criar uma Migration, este comando vai criar a estrutura migration para criar as tabelas no banco de dados caso tenha que criar, vai criar o Banco Agenda conforme   "appsettings.Development.json" e crair a tabela contato conforme "public DbSet<Contato> Contatos{get; set;}", após executar o comando será criado a pasta Migrations:
+- Comando criar uma Migration, este comando vai criar a estrutura migration para criar as tabelas no banco de dados caso tenha que criar, vai criar o Banco Agenda conforme   "appsettings.Development.json" e criar a tabela contato conforme "public DbSet<Contato> Contatos{get; set;}", após executar o comando será criado a pasta Migrations:
   dotnet-ef migrations add CriacaoTabelaContato
 
 - Comando para executar a migrations e criar o banco e a tabela:
