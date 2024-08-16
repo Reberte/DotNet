@@ -1,0 +1,15 @@
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfoInputs.cache
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfo.cs
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.sourcelink.json
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\bin\Debug\net8.0\Calculadora.exe
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\bin\Debug\net8.0\Calculadora.deps.json
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\bin\Debug\net8.0\Calculadora.runtimeconfig.json
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\bin\Debug\net8.0\Calculadora.dll
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\bin\Debug\net8.0\Calculadora.pdb
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.dll
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\refint\Calculadora.dll
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.pdb
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\Calculadora.genruntimeconfig.cache
+C:\EstudoDev\dotnet\DotNet\ModuloTestesDIO\Calculadora\obj\Debug\net8.0\ref\Calculadora.dll
